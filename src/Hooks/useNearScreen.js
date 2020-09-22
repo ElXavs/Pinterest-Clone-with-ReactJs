@@ -20,7 +20,6 @@ function useNearScreen() {
       observer.observe(element.current);
     });
   }, [element]);
-
   return [show, element];
 }
 

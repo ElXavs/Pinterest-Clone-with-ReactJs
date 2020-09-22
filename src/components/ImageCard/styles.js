@@ -7,6 +7,9 @@ const Image = styled.div`
     margin-bottom: 20px;
     width: 250px;
     border-radius: 50px;
+    background: #f4f4f5;
+    transition-duration: 1s;
+    transition-timing-function: ease;
     & img{
         ${fadeIn({ time: '2s' })}
         height: 100%;
